@@ -14,7 +14,7 @@ This repository contains Kubernetes configuration files to set up MongoDB and Mo
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/yourusername/mongodb-mongo-express-k8s.git
+   git clone https://github.com/ismailGitlab/mongodb-mongo-express-k8s.git
    cd mongodb-mongo-express-k8s
 
 2. Apply the Kubernetes manifests:
@@ -32,7 +32,6 @@ This repository contains Kubernetes configuration files to set up MongoDB and Mo
 
     ```bash
     minikube service mongo-express-service
-
 
 ## Components
 
