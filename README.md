@@ -14,8 +14,8 @@ This repository contains Kubernetes configuration files to set up MongoDB and Mo
 1. Clone this repository:
 
    ```bash
-   git clone https://gitlab.com/ismailGitlab/kubernetes-deployment-mongodb-mongo-express.git
-
+   git clone https://github.com/ismail-gits/kubernetes-deployment-mongodb-mongo-express.git
+   
 2. Apply the Kubernetes manifests:
 
     ```bash
