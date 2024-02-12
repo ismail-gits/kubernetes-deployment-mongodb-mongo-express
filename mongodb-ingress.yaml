@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Ingress
+metadata:
+  name: mongo-express-service
+spec:
+  rules:
+    - host: <host>
+      http:
+        paths:
+          - path: /
+            pathType: prefix
+            backend:
+              service:
+                name: mongo-express-service
+                port:
+                  number: 8081
